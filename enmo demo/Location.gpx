@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<gpx version="1.1" creator="Xcode"> 
+<!--
+            Provide one or more waypoints containing a latitude/longitude pair. If you provide one
+            waypoint, Xcode will simulate that specific location. If you provide multiple waypoints,
+            Xcode will simulate a route visitng each waypoint.
+    <wpt lat="37.331705" lon="-122.030237">
+         <name>Cupertino</name>
+         
+                Optionally provide a time element for each waypoint. Xcode will interpolate movement
+                at a rate of speed based on the time elapsed between each waypoint. If you do not provide
+                a time element, then Xcode will use a fixed rate of speed.
+          
+                Waypoints must be sorted by time in ascending order.
+         <time>2014-09-24T14:55:37Z</time>
+	</wpt>
+-->
+
+	<wpt lat="37.3065694" lon="-122.03113229999997">
+		<name>Silicon Valley Style</name>
+		<time>2015-12-04T01:15:37Z</time>
+	</wpt>
+
+	<wpt lat="37.3364817" lon="-122.06747840000003">
+		<name>Foothill Produce</name>
+		<time>2015-12-04T01:16:37Z</time>
+	</wpt>
+
+	<wpt lat="37.321949" lon="-122.068161">
+		<name>Cupertino</name>
+		<time>2015-12-04T01:17:37Z</time>
+	</wpt>
+
+	<wpt lat="37.337212" lon="-122.04101700000001">
+		<name>McDonalds Homestead</name>
+		<time>2015-12-04T01:18:37Z</time>
+	</wpt>
+
+	<wpt lat="37.3234078" lon="-122.04772630000002">
+		<name>Hobees</name>
+		<time>2015-12-04T01:19:37Z</time>
+	</wpt>
+
+	<wpt lat="37.3241877" lon="-122.03610259999999">
+		<name>Target</name>
+		<time>2015-12-04T01:20:37Z</time>
+	</wpt>
+
+	<wpt lat="37.3234642" lon="-122.05402149999998">
+		<name>Post Office 2</name>
+		<time>2015-12-04T01:21:37Z</time>
+	</wpt>
+
+	<wpt lat="37.3390512" lon="-121.9944787">
+		<name>Work</name>
+		<time>2015-12-04T01:22:37Z</time>
+	</wpt>
+
+</gpx>

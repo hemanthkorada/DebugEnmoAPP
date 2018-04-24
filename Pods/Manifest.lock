@@ -1,0 +1,16 @@
+PODS:
+  - Gimbal (2.79)
+
+DEPENDENCIES:
+  - Gimbal
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Gimbal
+
+SPEC CHECKSUMS:
+  Gimbal: 42a4a059961756874bb7acd0a54752853d3c6541
+
+PODFILE CHECKSUM: eb62c35d2d6b0da96de460780d0f41c3c4f68a19
+
+COCOAPODS: 1.5.0

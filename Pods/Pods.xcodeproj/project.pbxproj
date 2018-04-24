@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02113C1E298CA386D73C5F19A13D5614 /* Pods-enmo Development App-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 83753F64B7530DC8A699682980EC7FA1 /* Pods-enmo Development App-dummy.m */; };
+		25669B75E9DB468E136CC24724AC3176 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		89D8A48B395A09293E5169AACE3C73E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C27C9981A90C957EEDFFEC8FDF46D94B /* Pods-enmo Auto-Lock-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF33B3182532F7F1F18CB4885315A2D /* Pods-enmo Auto-Lock-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0FBB4112527B7A6134FE2BC794F3E373 /* Pods-enmo Development App-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-enmo Development App-frameworks.sh"; sourceTree = "<group>"; };
+		1A9D7A2D693CD6EEAA47136349AC63D4 /* Pods-enmo Development App-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-enmo Development App-acknowledgements.plist"; sourceTree = "<group>"; };
+		207CB9602BE68E441AA9AED37F63D608 /* Pods-enmo Auto-Lock-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-enmo Auto-Lock-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2177C3FFDB235A71F26EC47231460AE7 /* Pods-enmo Development App-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-enmo Development App-acknowledgements.markdown"; sourceTree = "<group>"; };
+		22FF0DCD46CCD4001DAB377AF81D64A2 /* Pods-enmo Development App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-enmo Development App.debug.xcconfig"; sourceTree = "<group>"; };
+		269414E39957FC12D472DB08278989B7 /* Pods-enmo Auto-Lock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-enmo Auto-Lock.debug.xcconfig"; sourceTree = "<group>"; };
+		28810E9E9EA589BB36C98F264B96D02D /* Pods-enmo Auto-Lock-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-enmo Auto-Lock-frameworks.sh"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		83753F64B7530DC8A699682980EC7FA1 /* Pods-enmo Development App-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-enmo Development App-dummy.m"; sourceTree = "<group>"; };
+		8F5C51213595841C909EAA17A0FCD178 /* libPods-enmo Auto-Lock.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-enmo Auto-Lock.a"; path = "libPods-enmo Auto-Lock.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A43D0CAD3642EC8D2E6A21642F0C5709 /* Pods-enmo Development App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-enmo Development App.release.xcconfig"; sourceTree = "<group>"; };
+		A51AD4B5C9E5EFBE7241B8C1866E8214 /* Pods-enmo Development App-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-enmo Development App-resources.sh"; sourceTree = "<group>"; };
+		B535B65AA6AA567798E6EAB5D6808C22 /* Gimbal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Gimbal.framework; path = Frameworks/Gimbal.framework; sourceTree = "<group>"; };
+		D21E0385B547EE8A7035925CF3CE2124 /* Pods-enmo Auto-Lock-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-enmo Auto-Lock-resources.sh"; sourceTree = "<group>"; };
+		EA20E95EEF62AB9C51E37D6C99C68097 /* libPods-enmo Development App.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-enmo Development App.a"; path = "libPods-enmo Development App.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAF7C70F333D561522579EF494408920 /* Pods-enmo Auto-Lock-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-enmo Auto-Lock-acknowledgements.plist"; sourceTree = "<group>"; };
+		FED452BF8BA6F7E8D0CCEE3F8E59BD0B /* Pods-enmo Auto-Lock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-enmo Auto-Lock.release.xcconfig"; sourceTree = "<group>"; };
+		FEF33B3182532F7F1F18CB4885315A2D /* Pods-enmo Auto-Lock-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-enmo Auto-Lock-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91759ADA66F0DEE1841C602E95A4EC04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89D8A48B395A09293E5169AACE3C73E4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDBF49CF4E31EBACCDFC655060513A88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25669B75E9DB468E136CC24724AC3176 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05F26BCBDEE7F9F3BD99058BEE2D2A9B /* Pods-enmo Auto-Lock */ = {
+			isa = PBXGroup;
+			children = (
+				207CB9602BE68E441AA9AED37F63D608 /* Pods-enmo Auto-Lock-acknowledgements.markdown */,
+				EAF7C70F333D561522579EF494408920 /* Pods-enmo Auto-Lock-acknowledgements.plist */,
+				FEF33B3182532F7F1F18CB4885315A2D /* Pods-enmo Auto-Lock-dummy.m */,
+				28810E9E9EA589BB36C98F264B96D02D /* Pods-enmo Auto-Lock-frameworks.sh */,
+				D21E0385B547EE8A7035925CF3CE2124 /* Pods-enmo Auto-Lock-resources.sh */,
+				269414E39957FC12D472DB08278989B7 /* Pods-enmo Auto-Lock.debug.xcconfig */,
+				FED452BF8BA6F7E8D0CCEE3F8E59BD0B /* Pods-enmo Auto-Lock.release.xcconfig */,
+			);
+			name = "Pods-enmo Auto-Lock";
+			path = "Target Support Files/Pods-enmo Auto-Lock";
+			sourceTree = "<group>";
+		};
+		3B59B96812939CC4CB8B0CEDA7A08AFC /* Gimbal */ = {
+			isa = PBXGroup;
+			children = (
+				64BE5883168CC12774E883118E7D085D /* Frameworks */,
+			);
+			name = Gimbal;
+			path = Gimbal;
+			sourceTree = "<group>";
+		};
+		5182C241391FD768948371CD3B2CF1A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F5C51213595841C909EAA17A0FCD178 /* libPods-enmo Auto-Lock.a */,
+				EA20E95EEF62AB9C51E37D6C99C68097 /* libPods-enmo Development App.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64BE5883168CC12774E883118E7D085D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B535B65AA6AA567798E6EAB5D6808C22 /* Gimbal.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				9F9A6B4F9AEEBB132167BCEB2433ED9C /* Pods */,
+				5182C241391FD768948371CD3B2CF1A2 /* Products */,
+				C02B2AC65C5D7DE625BEF38F37761416 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8FAD5B9E479BBCC43F20A47A59309EBC /* Pods-enmo Development App */ = {
+			isa = PBXGroup;
+			children = (
+				2177C3FFDB235A71F26EC47231460AE7 /* Pods-enmo Development App-acknowledgements.markdown */,
+				1A9D7A2D693CD6EEAA47136349AC63D4 /* Pods-enmo Development App-acknowledgements.plist */,
+				83753F64B7530DC8A699682980EC7FA1 /* Pods-enmo Development App-dummy.m */,
+				0FBB4112527B7A6134FE2BC794F3E373 /* Pods-enmo Development App-frameworks.sh */,
+				A51AD4B5C9E5EFBE7241B8C1866E8214 /* Pods-enmo Development App-resources.sh */,
+				22FF0DCD46CCD4001DAB377AF81D64A2 /* Pods-enmo Development App.debug.xcconfig */,
+				A43D0CAD3642EC8D2E6A21642F0C5709 /* Pods-enmo Development App.release.xcconfig */,
+			);
+			name = "Pods-enmo Development App";
+			path = "Target Support Files/Pods-enmo Development App";
+			sourceTree = "<group>";
+		};
+		9F9A6B4F9AEEBB132167BCEB2433ED9C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B59B96812939CC4CB8B0CEDA7A08AFC /* Gimbal */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C02B2AC65C5D7DE625BEF38F37761416 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				05F26BCBDEE7F9F3BD99058BEE2D2A9B /* Pods-enmo Auto-Lock */,
+				8FAD5B9E479BBCC43F20A47A59309EBC /* Pods-enmo Development App */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6DFEB9D7EE2DFCCF914021A04667B1C1 /* Pods-enmo Development App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 798C64457D25AA566BC7A071B9BAE529 /* Build configuration list for PBXNativeTarget "Pods-enmo Development App" */;
+			buildPhases = (
+				3D055C0213B2F6D45D333F9D4EB810BE /* Sources */,
+				91759ADA66F0DEE1841C602E95A4EC04 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-enmo Development App";
+			productName = "Pods-enmo Development App";
+			productReference = EA20E95EEF62AB9C51E37D6C99C68097 /* libPods-enmo Development App.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DEF9F1FD3E5B89217E0DFF5016E53401 /* Pods-enmo Auto-Lock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1476090E7BEEAC7806BF0D00D5DA8684 /* Build configuration list for PBXNativeTarget "Pods-enmo Auto-Lock" */;
+			buildPhases = (
+				ECF83B5138CC6A2AEF9C38B722C04AC8 /* Sources */,
+				FDBF49CF4E31EBACCDFC655060513A88 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-enmo Auto-Lock";
+			productName = "Pods-enmo Auto-Lock";
+			productReference = 8F5C51213595841C909EAA17A0FCD178 /* libPods-enmo Auto-Lock.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 5182C241391FD768948371CD3B2CF1A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEF9F1FD3E5B89217E0DFF5016E53401 /* Pods-enmo Auto-Lock */,
+				6DFEB9D7EE2DFCCF914021A04667B1C1 /* Pods-enmo Development App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D055C0213B2F6D45D333F9D4EB810BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02113C1E298CA386D73C5F19A13D5614 /* Pods-enmo Development App-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECF83B5138CC6A2AEF9C38B722C04AC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C27C9981A90C957EEDFFEC8FDF46D94B /* Pods-enmo Auto-Lock-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		08638A96A528B1EC32DE62F8A728389D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		1C326E9914570FC0AE57236E9A94E4D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A43D0CAD3642EC8D2E6A21642F0C5709 /* Pods-enmo Development App.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BFCADF41FEB58450EB146E9D2E8BFE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22FF0DCD46CCD4001DAB377AF81D64A2 /* Pods-enmo Development App.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9D5D3A5936C302CC61EF61A6AF17F108 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 269414E39957FC12D472DB08278989B7 /* Pods-enmo Auto-Lock.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9DAE5233986C01ADB6E67169C53A3FD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C08B3C7E21581743862DFA425257672A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FED452BF8BA6F7E8D0CCEE3F8E59BD0B /* Pods-enmo Auto-Lock.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1476090E7BEEAC7806BF0D00D5DA8684 /* Build configuration list for PBXNativeTarget "Pods-enmo Auto-Lock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D5D3A5936C302CC61EF61A6AF17F108 /* Debug */,
+				C08B3C7E21581743862DFA425257672A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DAE5233986C01ADB6E67169C53A3FD2 /* Debug */,
+				08638A96A528B1EC32DE62F8A728389D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		798C64457D25AA566BC7A071B9BAE529 /* Build configuration list for PBXNativeTarget "Pods-enmo Development App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BFCADF41FEB58450EB146E9D2E8BFE0 /* Debug */,
+				1C326E9914570FC0AE57236E9A94E4D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
